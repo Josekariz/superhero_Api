@@ -3,7 +3,7 @@ class CreateHeroPowers < ActiveRecord::Migration[7.0]
     create_table :hero_powers do |t|
       t.string :strength
       t.integer :power_id
-      t.integer :hero_id
+      t.integer :heroe_id
 
       t.timestamps
     end
