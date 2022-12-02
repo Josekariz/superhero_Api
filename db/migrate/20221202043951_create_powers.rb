@@ -4,7 +4,7 @@ class CreatePowers < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :description
 
-      t.timestamps
+#      t.timestamps
     end
   end
 end
