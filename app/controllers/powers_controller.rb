@@ -12,7 +12,11 @@ class PowersController < ApplicationController
   def update 
     power=find_power
     power.update!(power_params)
-    render json: power
+    render json: power, status: :Accepted
+
+  rescue ActiveRecord::RecordInvalid => e
+    render json: {errors: e.record.errors.full_messages}, status: :unprocessable_entity
+
   end
 
   private 
