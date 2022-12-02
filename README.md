@@ -3,11 +3,11 @@
 # SuperHero Api  
 
 # Instructions for set up 
-  * Clone this repository. 
+  * Clone this repository. :grin:	
  
       ![Clone image](public/assets/clone.png)
 
-  To get set up, run:
+  To get set up, run: :running_woman:	:running:	
 
 ```console
 $ bundle install 
@@ -35,7 +35,7 @@ And additionally start the rails server in your console.
   #  GET /heroes
 
 
- http://localhost:3000/heroes
+ http://localhost:3000/heroes :green_circle:	
 
 * The expected results is:
 
@@ -72,7 +72,7 @@ And additionally start the rails server in your console.
   #  GET /heroes/:id
 
 
- http://localhost:3000/heroes/:id
+ http://localhost:3000/heroes/:id :green_circle:	
 
 * The expected results is:
 
@@ -103,7 +103,7 @@ the  HTTP status code: 400
 
 ```
 # GET /powers
-http://localhost:3000/powers
+http://localhost:3000/powers :green_circle:	
 
 * The expected results is:
 
@@ -140,7 +140,7 @@ http://localhost:3000/powers
 ```
 
 # GET /powers/:id
- http://localhost:3000/powers/:id
+ http://localhost:3000/powers/:id  :green_circle:	
 
 
 If the `Power` exists, return JSON data in the format below:
@@ -167,7 +167,7 @@ th HTTP status code: 400
 ```
 
  # PATCH /powers/:id
- http://localhost:3000/powers/:id
+ http://localhost:3000/powers/:id :green_circle:	
 
 
 This route should update an existing `Power`. It should accept an object with
@@ -218,6 +218,7 @@ return the following JSON data, along with the appropriate HTTP status code:
 ```
 
 # POST /hero_powers
+http://localhost:3000/hero_powers/:id :green_circle:
 
 This route should create a new `HeroPower` that is associated with an
 
@@ -272,4 +273,4 @@ JSON data, along with the appropriate HTTP status code:
 }
 ```
 
-# Thats it. The SuperHero API is done.
+# Thats it. The SuperHero API is done. 	:green_heart: :innocent:	
